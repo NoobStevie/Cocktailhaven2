@@ -8,6 +8,7 @@ import NavBar from './components/Navbar';
 import SearchContainer from './components/SearchContainer';
 import About from './pages/About';
 import CocktailReviews from './pages/CocktailReviews'
+import Footer from './pages/Footer';
 
 const API_KEY = '1';
 
@@ -46,6 +47,9 @@ function App() {
         <div>
            <h1>Reviews</h1>
            <CocktailReviews cocktailID={1} updateReviews={updateReviews} />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
