@@ -33,6 +33,8 @@ With this it allows the user to:
 ### `npm install -g json-server`
 
 ### `json-server --watch db.json --port 8000`
+
+### `npm install --save @fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons`
  
 API used www.thecocktaildb.com/api/json/v1 
 
