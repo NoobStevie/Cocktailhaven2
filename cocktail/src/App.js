@@ -7,8 +7,10 @@ import RandomCocktail from './components/RandomCocktail';
 import NavBar from './components/Navbar';
 import SearchContainer from './components/SearchContainer';
 import About from './pages/About';
-import CocktailReviews from './pages/CocktailReviews'
+//import CocktailReviews from './pages/CocktailReviews'
 import Footer from './pages/Footer';
+import Review from './pages/Reviews/Review';
+import CreateReview from './pages/Reviews/CreateReview';
 
 const API_KEY = '1';
 
@@ -41,12 +43,17 @@ function App() {
           <RandomCocktail />
           <SearchContainer />
           <About />
-           
-        
         </div>
         <div>
            <h1>Reviews</h1>
-           <CocktailReviews cocktailID={1} updateReviews={updateReviews} />
+           <Review />
+           {/* <CocktailReviews 
+            cocktailID={1} 
+            updateReviews={updateReviews} 
+           /> */}
+      </div>
+      <div id="add-review">
+        <CreateReview />
       </div>
       <div>
         <Footer />
