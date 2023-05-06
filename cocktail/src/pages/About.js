@@ -1,10 +1,18 @@
 import React from "react";
+import AboutImage from "./cocktailhaven. (2).png"
 
 const About = () => {
   return (
     <div>
+      
       <section className="section about-section">
         <h1 className="section-title">About</h1>
+        <div>
+        <img src={AboutImage}
+        alt="About image"
+        className="about-img"
+        />
+      </div>
         <p>
           Welcome to our cocktail recipe website!! We are dedicated to bringing you the best and most delicious recipes from around the world. Our team of expert mixologists has carefully curated a collection of classic and modern cocktails. Whether you are looking for a refreshing summer cocktail, a cozy winter warmer, or a sophisticated cocktail to impress your guests, we've got you covered. From the classic Margarita to the trendy Aperol Spritz, our recipes are sure to tantalize your taste buds.
 

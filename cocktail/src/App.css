@@ -1,23 +1,42 @@
 /*GLOBAL*/
 button {
-  min-width: 130px;
-  height: 40px;
-  color: #fff;
-  padding: 5px 10px;
+  width: 6.0em;
+  height: 2.0em;
+  margin: 0.5em;
+  background: #C51533;
+  color: white;
+  border: none;
+  border-radius: 0.625em;
+  font-size: 20px;
   font-weight: bold;
   cursor: pointer;
-  transition: all 0.3s ease;
   position: relative;
-  display: inline-block;
-  outline: none;
-  border-radius: 5px;
-  border: 2px solid #55b0d4;
-  background: #55b0d4;
-}
-button:hover {
-  background: #fff;
-  color: #55b0d4
-}
+  z-index: 1;
+  overflow: hidden;
+ }
+ 
+ button:hover {
+  color: black;
+ }
+ 
+ button:after {
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+ }
+ 
+ button:hover:after {
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+ }
 
 h2 {
   font-size: 24px;
@@ -265,7 +284,6 @@ h2 {
 .section {
   margin: 50px 0;
 }
-
 .section-title {
   font-size: 36px;
   font-weight: bold;
@@ -277,15 +295,28 @@ h2 {
   background-color: #f7f7f7;
   padding: 30px;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
 }
 
 .about-section p {
   text-align: center;
-  font-size: 18px;
-  line-height: 1.5;
   color: #333;
   margin-bottom: 20px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #C51533;
+}
+
+.about-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 /* Styles for Review and ReviewsList components */
