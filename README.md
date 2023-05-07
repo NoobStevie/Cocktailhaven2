@@ -48,7 +48,7 @@ API used www.thecocktaildb.com/api/json/v1
 
 ## Link to live site on GitHub Pages
 
-### https://spectacular-horse-9b534a.netlify.app/
+### https://super-praline-5d4647.netlify.app/
 
 ## Copyright and license information
 
