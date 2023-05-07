@@ -13,7 +13,7 @@ With this it allows the user to:
 2. Look up random cocktails.
 3. Filter the cocktails by category, glass and whether its alcoholic.
 4. Rate cocktails by using stars.
-5. Leave reviews on the cocktails.
+5. Leave reviews about the cocktails.
 
 ## Project setup instructions
 
