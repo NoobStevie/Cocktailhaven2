@@ -14,7 +14,6 @@ With this it allows the user to:
 3. Filter the cocktails by category, glass and whether its alcoholic.
 4. Rate cocktails by using stars.
 5. Leave reviews on the cocktails.
-6. Save or bookmark favorite cocktails for easy access later.
 
 ## Project setup instructions
 
